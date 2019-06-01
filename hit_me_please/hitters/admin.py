@@ -4,4 +4,6 @@ from .models import Hitter
 
 @admin.register(Hitter)
 class HitterAdmin(admin.ModelAdmin):
-    pass
+    list_display = (
+        'email',
+    )
