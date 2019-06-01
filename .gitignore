@@ -2,3 +2,5 @@ ENV
 *.sqlite3
 __pycache__
 *.pyc
+hit_me_please/.DS_Store
+.vscode
