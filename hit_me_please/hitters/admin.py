@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Hitter
 
-# Register your models here.
+
+@admin.register(Hitter)
+class HitterAdmin(admin.ModelAdmin):
+    pass
