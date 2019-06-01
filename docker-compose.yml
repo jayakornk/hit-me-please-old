@@ -5,3 +5,4 @@ services:
     image: prontobacon/hitme:v2
     ports:
       - 80:8000
+# docker run -p 80:8000 prontobacon/hitme:v2
